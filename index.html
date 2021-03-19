@@ -10,7 +10,35 @@
 </head>
 <body>
 
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="container df-all-center">
+            <h1 class="logo">The Boolean Train Station</h1>
+        </div>
+    </header>
 
+    <!-- MAIN CONTENT -->
+    <main class="main-content df-all-center">
+        <div class="container df-all-center window">
+            <div class="data">Insert alla data required to generate ticket price.</div>
+            <form class="input-form df-all-center">
+                <label for="kilometers">Kilometers:</label>
+                <input type="text" id="kilometers" name="kilometers">
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age">
+            </form>
+
+            <button onclick="myFunction()">
+                Calculate Price
+            </button>
+
+            <div id="discount"></div>
+
+            <div class="price">
+                Your Ticket price is: <span id="ticket-price"></span>
+            </div>
+        </div>
+    </main>
 
     <!-- JS -->
     <script src="./js/script.js"></script>

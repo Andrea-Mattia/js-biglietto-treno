@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,59 @@
 
 body {
     font-family: sans-serif;
+    background-image: url('../img/railway.jpg');
+    background-size: cover;
+}
+
+/* UTILITIES */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.df-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+.main-header {
+    height: 80px;
+    background-image: linear-gradient(45deg, lightgreen, goldenrod);
+}
+
+.logo {
+    padding: 1rem;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    height: calc(100vh - 80px);
+}
+
+.window {
+    background: rgba(255,255,255, .75);
+    border: 2px solid dodgerblue;
+}
+
+.input-form,
+.window {
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+
+.input-form label,
+.input-form input:not(:last-child),
+button {
+    margin-bottom: 1rem;
+}
+
+#discount {
+    background: rgba(255,0,0, .25);
+}
+
+.price {
+    margin: 2rem 0;
 }
