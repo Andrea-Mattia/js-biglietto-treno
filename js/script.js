@@ -17,7 +17,7 @@ function myFunction() {
 
     //GENERATE PRICE
     //IF SECTION
-    var price = kilo * 0.27;
+    var price = kilo * 0.21;
     var discPerc;
     var discPrice;
 
